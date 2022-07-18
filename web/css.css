@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    padding: 0; 
+}
+
+.navbar{
+    width: 100%;
+    display:flex;
+    background: 50% #c3d4db;
+    position: fixed;
+}
+
+.logo{
+    width: 60%;
+  height: auto;
+  margin: 2%;
+}
+
+ol{
+    display: flex;
+    margin: 2%;
+}
+.megamenu{
+    width: 10%;
+    display:contents;
+}
+.megamenu a{
+margin: 3%;
+display: flex;
+
+}
+
+.search-box{
+    padding: 1%;
+    margin: 2%;
+}
+
+.cart{
+    margin: 1%;
+
+}
+
+.divider{
+    padding: 40%;
+}
+
+
+.section-one{
+    display: flex;
+    margin:20pt;
+
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .section-one{
+        display: block;
+        margin:20pt;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-two{
+        display: flex;
+    }
+}
+.card{
+    margin:20pt;
+}
+
+.section-two{
+}
+
+.categories{
+    margin: 70px auto;
+    max-width:1080px;
+    display: flex;
+
+
+}
+
+.categories img{
+height: auto;
+width: 5px;
+border-radius: 50%
+}
+
+.sec-two-in-txt{
+    margin: 50pt;
+    margin-block:auto ;
+}
+
+.sec-two-in-txt h2{
+font-size: xx-large;
+}
+
+.section-three{
+display: flex;
+}
+
+.section-four{
+    display: flex;
+}
+
+.card-fo{
+    margin: 30px 50px;
+    box-shadow: 0px 0px 20px 5px rgb(231 225 225 / 53%);
+}
+
+.card-fo:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 20px rgb(231 225 225 / 53%);
+}
+
+.section-five{
+    display: flex;
+}
+
+.sec-fv-block{
+    margin: 10pt;
+}
+
+.section-six{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    background: #eaeaea;
+
+}
+
+
+.footer{
+    background: #fffcfcbe;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.in-foo-sec{
+    display: grid;
+    margin: 20pt;
+}
+
+.end{
+    background: #b8b8b8;
+    text-align: center;
+}
+
+.card-fo-img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
